@@ -280,7 +280,8 @@ def borough_restaurant_TS(data, borough):
     #convert index to datetime
     bor = data.loc[borough]
     #drop first row
-    bor = bor.iloc[1:]
+    if not bor.index[0] == '2001-01-01':
+        bor = bor.iloc[1:]
     bor.index = pd.to_datetime(bor.index)
 
     return bor
