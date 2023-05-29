@@ -60,7 +60,11 @@ def plot_boroughs(data):
         borough_by_year = data[data['Area name'] == borough]
         if borough_by_year.empty:
             continue
-        borough_by_year = borough_by_year.drop(['Area code', 'Area name'], axis=1).values[0]
+        #check if 'Area code' is in columns
+        if 'Area code' in borough_by_year.columns:
+            borough_by_year = borough_by_year.drop(['Area code', 'Area name'], axis=1).values[0]
+        else:
+            borough_by_year = borough_by_year.drop(['Area name'], axis=1).values[0]
         # plot by year
         plt.plot(borough_by_year, label=borough)
 
@@ -87,7 +91,11 @@ def plot_all_boroughs(data):
         borough_by_year = data[data['Area name'] == borough]
         if borough_by_year.empty:
             continue
-        borough_by_year = borough_by_year.drop(['Area code','Area name'], axis=1).values[0]
+        #check if 'Area code' is in columns
+        if 'Area code' in borough_by_year.columns:
+            borough_by_year = borough_by_year.drop(['Area code', 'Area name'], axis=1).values[0]
+        else:
+            borough_by_year = borough_by_year.drop(['Area name'], axis=1).values[0]
         plt.plot(borough_by_year, color='gray', linewidth=1, linestyle=':')
 
 
@@ -95,7 +103,11 @@ def plot_all_boroughs(data):
         borough_by_year = data[data['Area name'] == borough]
         if borough_by_year.empty:
             continue
-        borough_by_year = borough_by_year.drop(['Area code','Area name'], axis=1).values[0]
+        #check if 'Area code' is in columns
+        if 'Area code' in borough_by_year.columns:
+            borough_by_year = borough_by_year.drop(['Area code', 'Area name'], axis=1).values[0]
+        else:
+            borough_by_year = borough_by_year.drop(['Area name'], axis=1).values[0]
         plt.plot(borough_by_year, label=borough, linewidth=2)
 
     plt.legend()
@@ -260,3 +272,16 @@ def plot_stations_changes(data, col, highlight_stations, see_stations):
 
     plt.legend()
     #plt.show()
+
+def borough_restaurant_TS(data, borough):
+    """
+    todo
+    """
+    #convert index to datetime
+    bor = data.loc[borough]
+    #drop first row
+    bor = bor.iloc[1:]
+    bor.index = pd.to_datetime(bor.index)
+
+    return bor
+
