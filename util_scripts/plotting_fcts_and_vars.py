@@ -158,6 +158,7 @@ def plot_boroughs_earlier(data):
     data: pd.DataFrame with following columns (all names as strings):
             Area code, Area name, 2001, 2002, ..., 2016, 2017
     """
+    years = [str(y) for y in range(1998, 2022)]
     columns = ["Area code", "Area name"] + years
 
     growth_boroughs = ['Greenwich', 'Hackney', 'Newham', 'Tower Hamlets',

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="baecd74d-20cd-4698-bd11-9a1e92a5908c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/notebooks/Clubs.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Clubs.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Pubs and Bars.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Pubs and Bars.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Restaurants.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Restaurants.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Takeaways.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Takeaways.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/fantastic_museums_and_where_to_find_them.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/fantastic_museums_and_where_to_find_them.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QQyc7N3zptcQW3Bmc28LpXg9kh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="baecd74d-20cd-4698-bd11-9a1e92a5908c" name="Changes" comment="" />
+      <created>1685300176821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685300176821</updated>
+      <workItem from="1685300180278" duration="1003000" />
+      <workItem from="1685301190636" duration="99000" />
+      <workItem from="1685301294751" duration="43000" />
+      <workItem from="1685301342357" duration="200000" />
+      <workItem from="1685301547463" duration="1473000" />
+      <workItem from="1685368196197" duration="44000" />
+      <workItem from="1685368243477" duration="112000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
